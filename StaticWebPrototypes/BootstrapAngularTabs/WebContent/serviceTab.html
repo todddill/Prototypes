@@ -1,0 +1,19 @@
+<div ng-controller="servicesController">
+	<h3>Service Data</h3>
+	<p>
+		Phone:&nbsp;&nbsp;<input type="checkbox" ng-model="servicesObject.phoneService">
+	</p>
+	<p>
+		TV:&nbsp;&nbsp;<input type="checkbox" ng-model="servicesObject.tv">
+	</p>
+	<p>
+		Internet:&nbsp;&nbsp;<input type="checkbox" ng-model="servicesObject.internet">
+	</p>
+	<button ng-click="handleEvent(servicesObject)">Submit</button>
+	<h4>Customer Data</h4>
+	<P>Name:&nbsp;&nbsp;{{customerObject.name}}</P>
+	<P>Phone:&nbsp;&nbsp;{{customerObject.phone}}</P>
+	<h4>Address Data</h4>
+	<P>Street:&nbsp;&nbsp;{{addressObject.street}}</P>
+	<P>City:&nbsp;&nbsp;{{addressObject.city}}</P>
+</div>

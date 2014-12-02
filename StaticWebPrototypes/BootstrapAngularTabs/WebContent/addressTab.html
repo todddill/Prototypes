@@ -1,0 +1,13 @@
+<div ng-controller="addressController">
+	<h3>Address Data</h3>
+	<p>
+		Street:&nbsp;&nbsp;<input ng-model="addressObject.street">
+	</p>
+	<p>
+		City:&nbsp;&nbsp;<input ng-model="addressObject.city">
+	</p>
+	<button ng-click="handleEvent(addressObject)">Submit</button>
+	<h4>Customer Data</h4>
+	<P>Name:&nbsp;&nbsp;{{customerObject.name}}</P>
+	<P>Phone:&nbsp;&nbsp;{{customerObject.phone}}</P>
+</div>
