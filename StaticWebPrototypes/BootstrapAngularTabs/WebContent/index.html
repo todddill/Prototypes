@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" type="text/css" media="all" />
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://code.angularjs.org/1.2.22/angular.js"></script>
+<script type="text/javascript" src="scripts/tabs.js"></script>
+<script type="text/javascript" src="scripts/communicator.js"></script>
+<script type="text/javascript" src="scripts/controllers.js"></script>
+</head>
+<body ng-app=communicator>
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<h1>Inter-Tab Communication Sample App</h1>
+				<p>Single page application with a tabbed interface.  Tabs communicate with one another using AngularJS</p>
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Customer</a></li>
+					<li><a href="#tab2" data-toggle="tab">Address</a></li>
+					<li><a href="#tab3" data-toggle="tab">Services</a></li>
+					<li><a href="#tab4" data-toggle="tab">Summary</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<div ng-include="'customerTab.html'"></div>
+					</div>
+					<div class="tab-pane" id="tab2">
+						<div ng-include="'addressTab.html'"></div>
+					</div>
+					<div class="tab-pane" id="tab3">
+						<div ng-include="'serviceTab.html'"></div>
+					</div>
+					<div class="tab-pane" id="tab4">
+						<div ng-include="'summaryTab.html'"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
