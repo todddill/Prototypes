@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Concepts", "Concepts", "{87
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{74F028F8-C67E-4358-B71C-03C30624CECE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5ACB8021-3C92-4574-8104-0B0E26C50BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseCalculator", "ExpenseCalculator\ExpenseCalculator.csproj", "{DE1AACDC-6BE8-4367-9757-63B76F714E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpenseCalculatorTests", "ExpenseCalculatorTests\ExpenseCalculatorTests.csproj", "{64A750D4-AD50-4D98-88BB-420698C5FD9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +33,22 @@ Global
 		{74F028F8-C67E-4358-B71C-03C30624CECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74F028F8-C67E-4358-B71C-03C30624CECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74F028F8-C67E-4358-B71C-03C30624CECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE1AACDC-6BE8-4367-9757-63B76F714E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE1AACDC-6BE8-4367-9757-63B76F714E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE1AACDC-6BE8-4367-9757-63B76F714E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE1AACDC-6BE8-4367-9757-63B76F714E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A750D4-AD50-4D98-88BB-420698C5FD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A750D4-AD50-4D98-88BB-420698C5FD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A750D4-AD50-4D98-88BB-420698C5FD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A750D4-AD50-4D98-88BB-420698C5FD9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{74F028F8-C67E-4358-B71C-03C30624CECE} = {87A6124D-1D09-47BF-94A9-66BB24592ABE}
+		{5ACB8021-3C92-4574-8104-0B0E26C50BB5} = {87A6124D-1D09-47BF-94A9-66BB24592ABE}
+		{DE1AACDC-6BE8-4367-9757-63B76F714E33} = {87A6124D-1D09-47BF-94A9-66BB24592ABE}
+		{64A750D4-AD50-4D98-88BB-420698C5FD9F} = {5ACB8021-3C92-4574-8104-0B0E26C50BB5}
 	EndGlobalSection
 EndGlobal
