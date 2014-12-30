@@ -14,7 +14,7 @@ public class ExpenseCalculatorTestHelper {
 	{
 		for (Pair<String, Double> employee : this.Employees)
 		{
-			if (employee.x == value)
+			if (employee.x.equals(value))
 				return employee;
 		}
 		
